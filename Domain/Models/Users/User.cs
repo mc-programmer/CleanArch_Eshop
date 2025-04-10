@@ -1,5 +1,8 @@
-﻿namespace Domain.Models.Users;
+﻿using Domain.Attributes;
 
+namespace Domain.Models.Users;
+
+[Auditable]
 public class User
 {
     public Guid Id { get; set; }
