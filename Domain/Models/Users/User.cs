@@ -1,10 +1,10 @@
 ﻿using Domain.Attributes;
+using Microsoft.AspNetCore.Identity;
 
 namespace Domain.Models.Users;
 
 [Auditable]
-public class User
+public class User : IdentityUser
 {
-    public Guid Id { get; set; }
     public string? FullName { get; set; }
 }

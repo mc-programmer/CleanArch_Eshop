@@ -68,7 +68,5 @@ public class DatabaseContext (DbContextOptions<DatabaseContext> options): DbCont
 
     #region Dbsets
 
-    public DbSet<User> Users { get; set; }
-
     #endregion
 }

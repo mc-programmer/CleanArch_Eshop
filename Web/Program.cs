@@ -12,6 +12,10 @@ builder.Services.AddDbContext<DatabaseContext>(option =>
     option.UseSqlServer(builder.Configuration["ConnectionStrings:sql_server"]);
 });
 
+builder.Services.AddDbContext<IdentityDatabaseContext>(option =>
+{
+    option.UseSqlServer(builder.Configuration["ConnectionStrings:sql_server"]);
+});
 
 var app = builder.Build();
 
