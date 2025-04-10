@@ -2,6 +2,7 @@
 
 ## Eshop project based on a course
 
--- I tried to make it cleaner and better
-
-## description soon
+-- ef core 9.0.4
+-- identity 9.0.4
+-- asd.net core 9.0
+-- clean architecture
